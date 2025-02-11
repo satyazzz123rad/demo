@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: gha-runner-scale-set-3
+    runs-on: gha-runner-scale-set-1
     container:
       image: alpine:latest
     steps:
